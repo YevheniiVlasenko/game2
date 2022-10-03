@@ -1,0 +1,608 @@
+.main {}
+
+// OUR-SPONSORS--------------------------------------------
+.our-sponsors {
+     background-color: #FDD04A;
+     padding: 9% 0;
+
+     &__title {
+          font-size: 3rem;
+          line-height: 3.625rem;
+          text-align: center;
+          text-transform: capitalize;
+          color: #222730;
+     }
+
+     // .sponsors__text
+
+     &__text {
+          font-size: 1rem;
+          line-height: 1.625rem;
+          text-align: center;
+          color: #555555;
+          width: min(37.25rem, 46%);
+          margin: 2.75rem auto;
+     }
+
+     // .sponsors__names
+
+     &__names {
+          width: min(1320px, 91.66%);
+          margin: 2.75rem auto 0 auto;
+          display: flex;
+          flex-flow: row wrap;
+          justify-content: center;
+          gap: 2rem;
+     }
+
+     // .sponsors__name
+
+     &__name {
+          display: flex;
+          flex-grow: 1;
+          flex-shrink: 0;
+          flex-basis: auto;
+          flex-basis: 14.6%;
+          padding: 0.675rem;
+          background: rgba(255, 255, 255, 0.35);
+          border-radius: 12px;
+          min-width: 193px;
+          max-width: 530px;
+     }
+
+     // .sponsors__link
+
+     &__link {
+          flex-shrink: 0;
+          border-radius: inherit;
+          padding: 1rem 0;
+          width: 100%;
+          height: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background: rgba(255, 255, 255, 0.3);
+     }
+
+     &__icon {
+          height: 2.23rem;
+          width: auto;
+     }
+}
+
+
+.underlined {
+     &_blue-left {
+          &:before {
+               content: url(../img/decor/decor-underline-blue.svg);
+               top: 1.7rem;
+               left: -2rem;
+          }
+     }
+}
+
+// GAMING-NEEDS--------------------------------------------
+.gaming-needs {
+     background: url(../img/main/gaming-needs/gaming-needs.jpg) 100% 100%/cover no-repeat;
+     padding: 9.03% 8.19%;
+     text-align: center;
+
+     &__container {}
+
+     // .gaming-needs__section-sub-title
+
+     &__section-sub-title {}
+
+     // .gaming-needs__section-title
+
+     &__section-title {
+          margin: 1.375rem auto 0 auto;
+          // width: max(770px, 53.5%);
+          max-width: 770px;
+     }
+
+     // .gaming-needs__section-text
+
+     &__section-text {
+          margin: 2.44rem auto 0 auto;
+          // width: min(720px, 53.5%);
+          max-width: 720px;
+     }
+
+     // .gaming-needs__cards
+
+     &__cards {}
+}
+
+.section-sub-title {}
+
+.section-title {
+     font-size: 4rem;
+     line-height: 4.625rem;
+     text-align: center;
+     text-transform: capitalize;
+
+     color: #FFFFFF;
+}
+
+.section-text {}
+
+.cards {
+     width: 100%;
+     padding-top: 4rem;
+     display: flex;
+     flex-flow: row wrap;
+     gap: 2rem;
+     justify-content: center;
+
+     &__item {
+          text-align: left;
+          padding: 2.19rem 2.19rem 2.19rem 5rem;
+          background: rgba(255, 255, 255, 0.15);
+          border-radius: 20px;
+          // max-width: 36.625rem;
+          flex-basis: 40.7%;
+          flex-grow: 1;
+     }
+
+
+     // .cards__title
+
+     &__title {
+          position: relative;
+          font-size: 2rem;
+          line-height: 2.625rem;
+          text-transform: capitalize;
+          color: #FFFFFF;
+
+          &::before {
+               position: absolute;
+               content: url(../img/decor/decor-icon-diamond.svg);
+               width: 100%;
+               height: 100%;
+               left: -2.5rem;
+          }
+     }
+
+     &__text {
+          margin-top: 1.19rem;
+          font-size: 1.125rem;
+          line-height: 1.625rem;
+          color: rgba(223, 223, 223, 0.8);
+     }
+}
+
+// NEW-ERA-------------------------------------------------
+.new-era {
+     background-color: #000;
+     padding: 9% 4.175%;
+
+     &__container {}
+
+     // .new-era__body
+
+     &__body {
+          display: flex;
+          justify-content: space-between;
+     }
+
+     // .new-era__content
+
+     &__content {
+          flex-basis: 54.62%;
+     }
+
+     // .new-era__section-sub-title
+
+     &__section-sub-title {}
+
+     // .new-era__section-title
+
+     &__section-title {
+          margin-top: 1.375rem;
+          text-align: left;
+     }
+
+     // .new-era__section-text
+
+     &__section-text {
+          margin-top: 2.375rem;
+          font-size: 20px;
+          line-height: 30px;
+          color: rgba(223, 223, 223, 0.8);
+     }
+
+     // .new-era__button
+
+     &__button {
+          margin-top: 3.375rem;
+     }
+
+     // .new-era__player-btn-container
+
+     &__player-btn-container {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-basis: 37.27%;
+          background: url(../img/main/new-era/btn-container-bg.png)50% 50%/contain no-repeat;
+     }
+
+     // .new-era__player-button
+
+     &__player-button {
+          position: relative;
+          width: 8rem;
+          height: 8rem;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background-color: rgb(255, 255, 255, 0.4);
+          border-radius: 50%;
+
+          &:before {
+               position: absolute;
+               content: "";
+               width: 6.56rem;
+               height: 6.56rem;
+               border-radius: 50%;
+               background-color: rgb(255, 255, 255, 0.3);
+          }
+     }
+
+     &__btn-img {
+          position: relative;
+          width: 36px;
+          height: 40px;
+          left: 5px;
+     }
+}
+
+// CUSTOMIZE-----------------------------------------------
+.customize {
+     background-color: #2A313C;
+     // .customize__container
+
+     &__container {}
+
+     // .customize__body
+
+     &__body {
+          display: flex;
+          padding: 0 4.175%;
+          justify-content: space-between;
+     }
+
+     // .customize__main-content
+
+     &__main-content {
+          margin: auto 0;
+          flex-basis: 45.15%;
+          // padding: 0 5.125rem;
+     }
+
+     // .customize__section-sub-title
+
+     &__section-sub-title {
+          text-align: left;
+     }
+
+     // .customize__section-title
+
+     &__section-title {
+          text-align: left;
+          margin-top: 1.375rem;
+     }
+
+     // .customize__section-text
+
+     &__section-text {
+          text-align: left;
+          margin-top: 2.375rem;
+          font-size: 1.25rem;
+          line-height: 1.875rem;
+          color: rgba(223, 223, 223, 0.8);
+
+     }
+
+     // .customize__image-content
+
+     &__image-content {
+          position: relative;
+          flex-basis: 45.15%;
+          padding-bottom: 52.651%;
+          max-width: 37.25rem;
+     }
+
+     // .customize__main-image
+
+     &__main-image {
+          object-fit: cover;
+          object-position: center;
+          position: absolute;
+          width: 100%;
+          max-width: 100%;
+          height: 100%;
+          left: 0;
+          top: 0;
+     }
+}
+
+.image-previews {
+     margin-top: 3.375rem;
+     display: flex;
+     gap: 30px;
+
+     &__img-container {}
+
+     // .image-previews__image
+
+     &__image {
+          height: 100%;
+          width: auto;
+     }
+}
+
+// ADVANTAGES----------------------------------------------
+
+.advantages {
+     width: 100%;
+     background-color: #2A313C;
+
+     // .advantages__container
+
+     &__container {}
+
+     // .advantages__body
+
+     &__body {
+
+          width: 100%;
+          display: flex;
+          flex-flow: row nowrap;
+          justify-content: center;
+     }
+
+     // .advantages__division
+
+     &__division {
+          padding: 17.8% 0;
+          display: flex;
+          justify-content: center;
+          flex-direction: column;
+          row-gap: 1.875rem;
+          align-items: center;
+          flex-basis: 33%;
+          flex-grow: 1;
+
+
+          &_first {
+               background: url(../img/main/advantages/advantages-bg-img-1.jpg) 0 0/cover no-repeat;
+          }
+
+          // .advantages__division_second
+
+          &_second {
+               background: url(../img/main/advantages/advantages-bg-img-2.jpg) 0 0/cover no-repeat;
+          }
+
+          // .advantages__division_third
+
+          &_third {
+               background: url(../img/main/advantages/advantages-bg-img-3.jpg) 0 0/cover no-repeat;
+          }
+     }
+
+     // .advantages__icon
+
+     &__icon {}
+
+     // .advantages__title
+
+     &__title {
+          font-size: 3rem;
+          line-height: 3.625rem;
+          text-align: center;
+          text-transform: capitalize;
+
+          color: #FFFFFF;
+     }
+}
+
+// NWES-ARTICLES-------------------------------------------
+.news-articles {
+     background-color: #000;
+     // .news-articles__container
+
+     &__container {}
+
+     // .news-articles__body
+
+     &__body {
+          padding: 9% 4.17%;
+     }
+
+     // .news-articles__header
+
+     &__header {
+          display: flex;
+          justify-content: space-between;
+     }
+
+     &__title-container {
+          max-width: 49.39%;
+     }
+
+     // .news-articles__section-sub-title
+
+     &__section-sub-title {}
+
+     // .news-articles__section-title
+
+     &__section-title {
+          margin-top: 1.375rem;
+          text-align: left;
+     }
+
+     // .news-articles__header-button
+
+     &__header-button {
+          align-self: flex-end;
+     }
+
+     // .news-articles__main-content
+
+     &__main-content {
+          margin-top: 4rem;
+          display: flex;
+          column-gap: 1.5rem;
+     }
+
+     // .news-articles__article
+
+     &__article {
+          flex-basis: 48.1%;
+          // .news-articles__article_main
+
+          &_main {}
+     }
+
+     // .news-articles__image
+
+     &__image {
+          border-radius: 22px;
+          // .news-articles__image_main
+
+          &_main {
+               border-radius: 42px;
+          }
+     }
+
+     // .news-articles__date
+
+     &__date {
+          display: block;
+          margin-top: 1.25rem;
+          font-size: 1rem;
+          line-height: 1rem;
+          color: #57B8FF;
+
+          &_main {
+               margin-top: 1.875rem;
+               font-size: 1.125rem;
+               line-height: 1.125rem;
+          }
+     }
+
+     &__article-title {
+          margin-top: 1.25rem;
+
+          font-size: 1.5rem;
+          line-height: 2.125rem;
+          text-transform: capitalize;
+          color: #FFFFFF;
+
+          &_main {
+               margin-top: 1.875rem;
+               font-size: 2rem;
+               line-height: 2.625rem;
+               text-transform: capitalize;
+          }
+     }
+
+     &__title-link {
+
+          // .news-articles__title-link_main
+
+          &_main {}
+     }
+
+     // .news-articles__img-link
+
+     &__img-link {}
+}
+
+.articles-container {
+     display: flex;
+     flex-wrap: wrap;
+}
+
+.main-article-container {
+     max-width: 49.39%;
+
+}
+
+// JOIN-----------------------------------------------------
+.join {
+     background: url(../img/main/join/join-bg.jpg)0 0/cover no-repeat;
+
+     &__container {}
+
+     &__body {
+          padding: 9% 0;
+          display: flex;
+          flex-direction: column;
+          max-width: 847px;
+          margin: 0 auto;
+     }
+
+     // .join__title
+
+     &__title {
+          font-size: 4.5rem;
+          line-height: 5.125rem;
+          text-align: center;
+          color: #141820;
+     }
+
+     &__underlined {
+          &:before {
+               scale: 1.5;
+               top: 0;
+          }
+     }
+
+     // .join__text
+
+     &__text {
+          // display: block;
+          margin-top: 3.1rem;
+          font-size: 1.125rem;
+          line-height: 1.625rem;
+          text-align: center;
+          color: #555555;
+     }
+
+     // .join__form
+
+     &__form {
+          padding-top: 2.7rem;
+          display: block;
+          margin: 0 auto;
+          display: flex;
+     }
+
+     // .join__input
+
+     &__input {
+          height: 3.675rem;
+          width: 100%;
+          max-width: 445px;
+          padding: 0.5rem 2rem;
+     }
+
+     // .join__button
+
+     &__button {
+          margin-left: -5px;
+     }
+}
+
+.underlined {
+
+     // .underlined_blue
+
+     &_blue {
+          &::before {}
+     }
+}

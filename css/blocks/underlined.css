@@ -1,0 +1,19 @@
+.underlined {
+  position: relative;
+  display: inline-block;
+}
+.underlined:before {
+  position: absolute;
+  content: url(../../img/decor/decor-underline-yellow.svg);
+  width: 100%;
+  height: 1rem;
+  top: 1.25rem;
+  right: 0;
+}
+.underlined_blue:before {
+  content: url(../../img/decor/decor-underline-blue.svg);
+  width: 100%;
+  height: 1rem;
+  top: 1.25rem;
+  right: 0;
+}/*# sourceMappingURL=underlined.css.map */

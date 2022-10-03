@@ -1,0 +1,18 @@
+.section-sub-title {
+     font-size: 1rem;
+     line-height: 1rem;
+     text-transform: uppercase;
+     color: #57B8FF;
+
+     &::before {
+          position: relative;
+          content: "";
+          width: 2rem;
+          height: 2rem;
+          background: url(../../img/decor/decor-icon-fire.svg) 50%/ cover no-repeat;
+          display: inline-block;
+          top: 0.625rem;
+
+     }
+
+}

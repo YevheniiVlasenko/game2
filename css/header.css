@@ -1,0 +1,147 @@
+div[class*=__container] {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.menu-line {
+  padding: 20px 0 0 0;
+  width: min(1320px, 91.67%);
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.menu-line__logo {
+  flex-basis: 25.7%;
+  flex-grow: 1;
+  flex-shrink: 5;
+}
+.menu-line__button {
+  padding: 1rem 1.9rem;
+  background-color: transparent;
+  border: 1px solid #fff;
+}
+
+.logo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.logo__link {
+  width: min-content;
+  height: min-content;
+}
+.logo__icon {
+  height: 3rem;
+  width: auto;
+}
+
+.menu {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-basis: 42.95%;
+}
+.menu__list {
+  display: flex;
+  align-items: center;
+  column-gap: 3.75rem;
+}
+.menu__item {
+  text-transform: capitalize;
+  font-size: 1rem;
+  line-height: 1.625rem;
+  color: #FFFFFF;
+}
+
+.cart {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 2.5rem;
+  flex-basis: 9.4%;
+}
+.cart__link {
+  height: min-content;
+}
+.cart__icon {
+  height: 2rem;
+  width: auto;
+}
+
+.header-body {
+  padding: 14.51% 4.2% 0 0;
+  padding-top: 14.51%;
+  width: 100%;
+  padding-right: 4.2%;
+  display: flex;
+  align-items: center;
+}
+
+.link-block {
+  width: min-content;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  flex-basis: 4.16%;
+  flex-grow: 0;
+  flex-shrink: 0;
+  gap: 3.6rem;
+  font-size: 11px;
+  line-height: 1.6rem;
+  color: #80858F;
+  writing-mode: vertical-lr;
+  rotate: -180deg;
+}
+.header {
+  padding: 0 0 17.36% 0;
+  width: 100%;
+  background: linear-gradient(to right, #000 56%, #57B8FF 44%);
+}
+.header__text-content {
+  flex-basis: 47.82%;
+}
+.header__title {
+  margin-top: 1.625rem;
+  font-size: 4.5rem;
+  line-height: 5.375rem;
+  text-transform: capitalize;
+  color: #FFFFFF;
+}
+.header__underline {
+  position: relative;
+  display: inline-block;
+}
+.header__underline:before {
+  position: absolute;
+  content: url(../img/decor/decor-underline-yellow.svg);
+  width: 100%;
+  height: 1rem;
+  top: 1.25rem;
+  right: 0;
+}
+.header__section-text {
+  margin-top: 2.69rem;
+  width: 90%;
+}
+.header__button-container {
+  margin-top: 3.3125rem;
+}
+.header__button-label {
+  margin-left: 2.5rem;
+  font-size: 1.125rem;
+  line-height: 1.625rem;
+  color: #FFFFFF;
+}
+.header__image-content {
+  flex-basis: 47.82%;
+}
+.header__main-image {
+  width: 100%;
+  height: auto;
+}/*# sourceMappingURL=header.css.map */
